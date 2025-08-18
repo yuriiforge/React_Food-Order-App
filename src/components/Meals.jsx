@@ -1,4 +1,5 @@
 import useMeals from "../hooks/useMeals";
+import MealItem from "./MealItem";
 
 const Meals = () => {
   const { meals, loading, error } = useMeals();
@@ -6,7 +7,7 @@ const Meals = () => {
   return (
     <ul id="meals">
       {meals.map((meal) => (
-        <li key={meal.id}>{meal.name}</li>
+        <MealItem key={meal.id} meal={meal} />
       ))}
     </ul>
   );
