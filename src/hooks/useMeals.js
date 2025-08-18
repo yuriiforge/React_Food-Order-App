@@ -12,7 +12,7 @@ const useMeals = () => {
         setError(false);
         setLoading(true);
 
-        const data = await fetchData("http://localhost:3000/mealxs");
+        const data = await fetchData("http://localhost:3000/meals");
         setMeals(data);
       } catch (error) {
         console.error(error);
