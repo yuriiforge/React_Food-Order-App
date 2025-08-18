@@ -1,4 +1,5 @@
 import logo from "../assets/logo.jpg";
+import Button from "./UI/Button";
 
 const Header = () => {
   return (
@@ -8,7 +9,7 @@ const Header = () => {
         <h1>ReactFood</h1>
       </div>
       <nav>
-        <button>CART (0)</button>
+        <Button textOnly>CART (0)</Button>
       </nav>
     </header>
   );
