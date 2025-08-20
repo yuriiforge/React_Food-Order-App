@@ -24,7 +24,7 @@ It demonstrates:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/food-order-app.git
+git clone https://github.com/yuriiforge/React_Food-Order-App.git
 cd food-order-app
 ```
 
